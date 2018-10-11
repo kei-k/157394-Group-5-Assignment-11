@@ -1,0 +1,110 @@
+@charset "UTF-8";
+body {
+	background-color:						#dddddd;
+	font-family:							"Arial", Helvetica, sans-serif;
+}
+
+#header {
+	background-color:						#ffffff;
+	width:									90%;
+	margin:									auto;
+	margin-bottom:							5px;
+}
+#trademark {
+	background-color:						#ddeaff;
+	min-width:								25%;
+	max-width:								40%;
+	height:									120px;
+	padding:								10px;
+}
+#logo-container {
+	background-color:						b7d2ff;
+	float:									left;
+	margin-top:								10px;
+}
+#logo {
+	background-color:						#ffffff;
+	min-width:								100px;
+	min-height:								100px;
+	margin-right:							20px;
+}
+#names {
+	background-color:						#e0e0e0;
+}
+#title {
+	margin-bottom:							5px;
+}
+#subTitle {
+	padding-left:							10px;
+}
+#topNav {
+	background-color:						#ccd4e2;
+}
+#mainMenu {
+	list-style-type:						none;
+	margin:									0;
+	padding:								0;
+	overflow:								hidden;
+	background-color:						#333333;
+}
+#topButtonContainer {
+	float:									left;
+	width:									12.5%;
+	overflow:								hidden;
+	transition:								background-color	0.5s;
+}
+#topButtonContainer:hover {
+	background-color:						#111111;
+}
+#topButtonContainer:active{
+	background-color:						#727272;
+}
+#topButton {
+	display:								block;
+	padding:								14px	16px;
+	color:									#ffffff;
+	text-align:								center;
+	text-decoration:						none;
+	
+	
+}
+
+#footer {
+	background-color:						#ffffff;
+	width:									90%;
+	margin:									auto;
+	margin-top:								10px;
+}
+#sitemap {
+	background-color:						#bcbcbc;
+	padding:								1%;
+}
+#sitemapCore {
+	list-style-type:						none;
+	margin:									5px;
+	padding:								5px;
+	overflow:								hidden;
+	display:								block;
+}
+#sitemapCore li {
+	padding:								2px;
+}
+#sitemapCore li a {
+	color:									#000000;
+	text-decoration:						none;
+}
+#socialMedia {
+	margin:									auto;
+	text-align:								center;
+}
+#socialMediaMenu {
+	list-style-type:						none;
+	margin:									5px;
+	padding:								5px;
+	overflow:								hidden;
+	display:								inline-block;
+}
+#socialMediaMenu li {
+	float:									left;
+	margin:									10px;
+}
