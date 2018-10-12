@@ -3,3 +3,28 @@
 	width:									90%;
 	margin:									auto;
 }
+
+#photoGallery {
+	background-color:						#bcbcbc;
+	width:									98%;
+	list-style-type:						none;
+	margin:									0;
+	padding:								1%;
+	overflow:								hidden;
+	display:								inline-block;
+	text-align:								center;
+}
+#photoGallery li {
+	float:									left;
+	width:									24.5%;
+	overflow:								hidden;
+}
+#mainImage {
+	background-color:						#ffffff;
+	width:									90%;
+	height:									90%;
+}
+
+#homeAbout {
+	padding:								2%;
+}
