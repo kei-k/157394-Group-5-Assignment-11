@@ -12,8 +12,8 @@ body {
 }
 #trademark {
 	background-color:						#ddeaff;
-	min-width:								25%;
-	max-width:								40%;
+	min-width:								auto;
+	max-width:								50%;
 	height:									120px;
 	padding:								10px;
 }
