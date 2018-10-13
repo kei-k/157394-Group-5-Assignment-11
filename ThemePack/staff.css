@@ -1,0 +1,26 @@
+#content {
+	background-color:						#ffffff;
+	width:									90%;
+	margin:									auto;
+}
+
+#t0 {
+	padding-left:							5px;
+}
+
+
+#td0 {
+	border:									1px solid #ccc;
+}
+
+#staffTitle {
+	font-weight:							bold;
+}
+
+#desc {
+	padding:								5px;
+	text-align:								center;
+}
+
+
+
