@@ -1,0 +1,6 @@
+#contacts {
+	text-align:							left;
+}
+#contacts td,th {
+	border:								1px solid #dddddd;
+}
