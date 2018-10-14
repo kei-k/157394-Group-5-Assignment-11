@@ -68,6 +68,11 @@ body {
 	
 	
 }
+#content {
+	background-color:						#ffffff;
+	width:									90%;
+	margin:									auto;
+}
 
 #footer {
 	background-color:						#ffffff;

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Placeholder Title</title>
+		<meta charset='UTF-8'>
+		<link rel='stylesheet' href='ThemePack/core.css'>
+		<link rel='stylesheet' href='ThemePack/enrolments.css'>
+		<script>
+			function validateEnrolment() {
+				var fname		=	document.forms['enrolmentForm']['fname'].value;
+				var lname		=	document.forms['enrolmentForm']['lname'].value;
+				var address		=	document.forms['enrolmentForm']['address'].value;
+				var country		=	document.forms['enrolmentForm']['country'].value;
+				var sex			=	document.forms['enrolmentForm']['sex'].value;
+				var nationality	=	document.forms['enrolmentForm']['nationality'].value;
+				if (fname==""||lname==""||address==""||country==""||sex==""||nationality=="") {
+					alert("Whole Form Needs to Be Filled Out!");
+					return false;
+				}
+				else {
+					alert("Form has been set for processing!")
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div id='header'>
+			<div id='trademark'>
+				<div id='logo-container'>
+					<img id='logo' src='images/logo.png' alt='Logo'/>
+				</div>
+				<div id='names'>
+					<div id='title'>
+						<h1>Massey Primary School</h1>
+					</div>
+					<div id='subTitle'>
+						<h3>BecauseðŸ‘ WeðŸ‘ CanðŸ‘</h3>
+					</div>
+				</div>
+			</div>
+			<div id='topNav'>
+				<ul id='mainMenu'>
+					<li id='topButtonContainer'>
+						<a id='topButton' href='index.html'>Home</a>
+					</li>
+					<li id='topButtonContainer'>
+						<a id='topButton' href='news.html'>News</a>
+					</li>
+					<li id='topButtonContainer'>
+						<a id='topButton' href='services.html'>Services</a>
+					</li>
+					<li id='topButtonContainer'>
+						<a id='topButton' href='curriculum.html'>Curriculum</a>
+					</li>
+					<li id='topButtonContainer'>
+						<a id='topButton' href='staff.html'>Staff</a>
+					</li>
+					<li id='topButtonContainer'>
+						<a id='topButton' href='parents.html'>Parents</a>
+					</li>
+					<li id='topButtonContainer'>
+						<a id='topButton' href='enrolments.html'>Enrolments</a>
+					</li>
+					<li id='topButtonContainer'>
+						<a id='topButton' href='contact.html'>Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id='content'>
+			<form name='enrolmentForm' action='enrolled.html' onsubmit='return validateEnrolment()' method='post'>
+				<table>
+					<tr>
+						<th>
+							First Name:
+						</th>
+						<th>
+							<input type='text' name='fname'>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Last Name:
+						</th>
+						<th>
+							<input type='text' name='lname'>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Address:
+						</th>
+						<th>
+							<input type='text' name='address'>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Country:
+						</th>
+						<th>
+							<input type='text' name='country'>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Sex:
+						</th>
+						<th>
+							<select name='sex'>
+								<option value='M'>Male</option>
+								<option value='F'>Female</option>
+							</select>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Nationality:
+						</th>
+						<th>
+							<input type='text' name='nationality'>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<input type='submit' value='Submit'>
+						</th>
+					</tr>
+				</table>
+			</form>
+		</div>
+		
+		<div id='footer'>
+			<div id='sitemap'>
+				<b>Sitemap</b>
+				<ul id='sitemapCore'>
+					<li>
+						<a href='index.html'>Home Page</a>
+					</li>
+					<li>
+						<a href='news.html'>News</a>
+					</li>
+					<li>
+						<a href='services.html'>Services</a>
+					</li>
+					<li>
+						<a href='curriculum.html'>Curriculum</a>
+					</li>
+					<li>
+						<a href='staff.html'>Staff</a>
+					</li>
+					<li>
+						<a href='parents.html'>Parents</a>
+					</li>
+					<li>
+						<a href='enrolments.html'>Enrolments</a>
+					</li>
+					<li>
+						<a href='contact.html'>Contact</a>
+					</li>
+				</ul>
+			</div>
+			<div id='socialMedia'>
+				<ul id='socialMediaMenu'>
+					<li>
+						<a href='#'><img border='0' alt='Facebook' src='images/facebook-logo.png' width='50' height='50'></a>
+					</li>
+					<li>
+						<a href='#'><img border='0' alt='Twitter' src='images/twitter-logo.png' width='50' height='50'></a>
+					</li>
+				</ul>
+			</div>
+			<div id='copyrightBar'>
+				<center>Copyright Bar Placeholder</center>
+			</div>
+		</div>
+	</body>
+</html>
