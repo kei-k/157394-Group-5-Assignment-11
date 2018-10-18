@@ -5,30 +5,8 @@
 		<meta charset='UTF-8'>
 		<link rel='stylesheet' href='ThemePack/core.css'>
 		<link rel='stylesheet' href='ThemePack/contact.css'>
-		<script type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
-		<!--script type="text/javascript" src="newsParse.js"></script-->
-		<script>
-			$(document).ready(function(){
-			$("#news").append("<ul></ul>");
-			$.ajax({
-				type: "GET",
-				url: "news.xml",
-				dataType: "xml",
-				success: function(xml){
-					$(xml).find('article').each(function(){
-						var sTitle = $(this).find('newsTitle').text();
-						var sPublisher = $(this).find('newsContent').text();	
-						$("<li></li>").html(sTitle + ", " + sPublisher).appendTo("#news ul");
-						});
-					},
-				//error: function() {
-				//	alert("An error occurred while processing XML file.");
-				//	}
-				error: function(xhr, status, error) {
-					alert(xhr.responseText);
-				}
-			});
-		</script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="newsParse.js"></script>
 	</head>
 	<body>
 		<div id='header'>
@@ -78,6 +56,13 @@
 		<div id='content'>
 			<h2>School News</h2>
 			<div id='news'>
+				<li>News Title 1 - 1 Placeholder News</li>
+				<li>News Title 2 - 2 Placeholder News</li>
+				<li>News Title 3 - 3 Placeholder News</li>
+				<li>News Title 4 - 4 Placeholder News</li>
+				<li>News Title 5 - 5 Placeholder News</li>
+				<li>News Title 6 - 6 Placeholder News</li>
+				<li>News Title 7 - 7 Placeholder News</li>
 			</div>
 		</div>
 		
