@@ -1,0 +1,58 @@
+<news>
+	<article>
+		<newsTitle>
+			News Title 1
+		</newsTitle>
+		<newsContent>
+			No
+		</newsContent>
+	</article>
+	<article>
+		<newsTitle>
+			News Title 2
+		</newsTitle>
+		<newsContent>
+			No
+		</newsContent>
+	</article>
+	<article>
+		<newsTitle>
+			News Title 3
+		</newsTitle>
+		<newsContent>
+			No
+		</newsContent>
+	</article>
+	<article>
+		<newsTitle>
+			News Title 4
+		</newsTitle>
+		<newsContent>
+			No
+		</newsContent>
+	</article>
+	<article>
+		<newsTitle>
+			News Title 5
+		</newsTitle>
+		<newsContent>
+			No
+		</newsContent>
+	</article>
+	<article>
+		<newsTitle>
+			News Title 6
+		</newsTitle>
+		<newsContent>
+			No
+		</newsContent>
+	</article>
+	<article>
+		<newsTitle>
+			News Title 7
+		</newsTitle>
+		<newsContent>
+			No
+		</newsContent>
+	</article>
+</news>
